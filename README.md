@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+#To start application localy move to directory with project and run command:
+### 1. npm install
+### 2. npm start
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#News Application
 
-## Available Scripts
+This application is using news API to show up news in diffrent countries. It's made in React, using Redux and it's full responsive website so user can open it in every device. You can find news for 5 countries.
 
-In the project directory, you can run:
+![image](https://github.com/Dylaixo/NewsApp/assets/100869542/7a9700f7-1b7e-45d7-ba9d-3b1b639655b4)
 
-### `npm start`
+#### Main page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Main page show information about whole  application. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### In navbar you can see 3 buttons and name of the application
 
-### `npm test`
+![image](https://github.com/Dylaixo/NewsApp/assets/100869542/378d626e-3b9d-4d6e-8d9e-0eb4878deeeb)
+ 
+Right button is used to open submenu on right site: 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://github.com/Dylaixo/NewsApp/assets/100869542/3a50b3b1-39f2-4eb6-9756-4141aeee0c12)
+In this menu you can select which country you are intrested in and find news.
 
-### `npm run build`
+### Left buttons
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Information buttons
+It display popup informations about whole application. What was difficult and why I enjoy this task.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://github.com/Dylaixo/NewsApp/assets/100869542/e4ab1b3d-1d2b-4a0b-93f3-99b5999631b1)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## List/Tiles buttons
+It change way of displaying informations. User can switch way of displaying news as a list or tiles.
 
-### `npm run eject`
+# Tiles:
+![image](https://github.com/Dylaixo/NewsApp/assets/100869542/9a3d6b81-f85c-4ad1-8ed0-66ab3373cb9b)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# List:
+![image](https://github.com/Dylaixo/NewsApp/assets/100869542/d7b53c52-f1bb-4711-8331-1db47a8c9543)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Name of the page
+Redirect user to the main page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### News informations
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![image](https://github.com/Dylaixo/NewsApp/assets/100869542/c85d07f5-5d10-455e-86db-52cd8fc05a2d)
 
-## Learn More
+This section get data from API and display it as a cards containing the most importatnt informations.
+After click on the news it show up whole informations about page and like to whole article at official information service.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![image](https://github.com/Dylaixo/NewsApp/assets/100869542/4a5212c1-0ee2-4764-893c-97c8b3cb7de8)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# If response from API dosen't have photo application display default one:
+![image](https://github.com/Dylaixo/NewsApp/assets/100869542/b0c15451-0ba2-4d5b-bb6d-58339e8413c2)
 
-### Code Splitting
+#### Footer
+Footer display clock which change every second and number of articles for country which user selected
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![image](https://github.com/Dylaixo/NewsApp/assets/100869542/1ee1c1ee-ace2-4e64-a759-c2c1483dd28b)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
