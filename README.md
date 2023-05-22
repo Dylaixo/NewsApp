@@ -2,7 +2,7 @@
 ### 1. npm install
 ### 2. npm start
 
-#News Application
+# News Application
 
 This application is using news API to show up news in diffrent countries. It's made in React, using Redux and it's full responsive website so user can open it in every device. You can find news for 5 countries.
 
@@ -49,7 +49,7 @@ After click on the news it show up whole informations about page and like to who
 
 ![image](https://github.com/Dylaixo/NewsApp/assets/100869542/4a5212c1-0ee2-4764-893c-97c8b3cb7de8)
 
-# If response from API dosen't have photo application display default one:
+##### If response from API dosen't have photo application display default one:
 ![image](https://github.com/Dylaixo/NewsApp/assets/100869542/b0c15451-0ba2-4d5b-bb6d-58339e8413c2)
 
 #### Footer
