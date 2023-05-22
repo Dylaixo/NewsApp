@@ -1,0 +1,14 @@
+.root{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        background-image: url("https://downloops.com/wp-content/uploads/edd/2016/11/Earth4-Abstract_News_Motion_Background_Video_Loop_Sample3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+}
+.content{
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.455);
+}

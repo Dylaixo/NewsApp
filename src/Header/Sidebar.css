@@ -1,0 +1,29 @@
+.offcavnas-title{
+    font-size: 3rem;
+}
+.flag{
+    width:100%;
+    margin-left: auto;
+}
+.countryName{
+    height: 100%;
+    margin-top: 18px !important;
+}
+
+.countryNameLink:hover{
+    text-decoration: underline;
+}
+.offcanvas{
+    font-family: 'Montserrat', sans-serif;
+}
+@media (max-width: 560px){
+    .countryName{
+        margin-top: 0 !important;
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 430px){
+    .offcanvas{
+        width: 200px;
+    }
+}

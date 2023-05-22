@@ -1,0 +1,52 @@
+.brandName:hover{
+    transition: ease-in-out 0.8s;
+    text-decoration: underline;
+    font-size: 3rem;
+}
+.brandName{
+    font-size: 2.5rem;
+}
+.navbar{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    background-color: #4171E1;
+}
+@media (max-width: 997px) {
+    svg{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media (max-width: 560px){
+    .offcanvas.show:not(.hiding){
+        width: 250px;
+    }
+}
+@media (max-width: 450px){
+    .brandName{
+        font-size: 2rem;
+    }
+    .brandName:hover{
+        font-size: 2.5rem;
+        transition: none;
+    }
+}
+@media (max-width: 380px){
+    .brandName{
+        font-size: 2rem;
+    }
+    .brandName:hover{
+        font-size: 2rem;
+        transition: none;
+    }
+
+}
+@media (max-width: 340px){
+    .brandName{
+        font-size: 1.8rem;
+    }
+    svg{
+        width: 25px;
+        height: 25px;
+    }
+}

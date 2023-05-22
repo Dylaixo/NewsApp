@@ -1,0 +1,19 @@
+footer{
+    background-color: #4171E1;
+    height: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    margin-top: auto !important;
+}
+.articles{
+    text-align: end;
+}
+.time{
+    text-align: start;
+}
+@media(max-width: 440px){
+    .articles{
+        margin-top: 0 !important;
+    }
+}
